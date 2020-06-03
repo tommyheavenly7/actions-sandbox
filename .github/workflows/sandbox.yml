@@ -34,4 +34,5 @@ jobs:
         ./greeting.sh > README
         cd ../../
         pwd
+        cat ./project/frontend/README
 
