@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  git:
+    container_name: "action-sandbox-git"
+    image: "docker.pkg.github.com/tommyheavenly7/github/git:latest"
+    volumes:
+      - "./:/git"
