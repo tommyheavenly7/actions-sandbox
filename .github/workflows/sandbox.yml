@@ -32,6 +32,7 @@ jobs:
         cp project/greeting.sh project/frontend/
         cd project/frontend/
         ./greeting.sh > README
+        echo "from README" >> README
         cd ../../
         pwd
         cat ./project/frontend/README
